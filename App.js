@@ -1,12 +1,14 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import CurrentWeather from './src/components/CurrentWeather';
-import UpcomingWeather from './src/components/UpcomingWeather';
+import CurrentWeather from './src/Screens/CurrentWeather';
+import UpcomingWeather from './src/Screens/UpcomingWeather';
+import City from './src/Screens/City';
+import RowText from './src/components/RowText';
 
 const App = () => {
   return (
     <View style={styles.main}>
-      <UpcomingWeather />
+      <CurrentWeather />
     </View>
   );
 }

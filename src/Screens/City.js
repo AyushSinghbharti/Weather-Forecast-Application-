@@ -18,7 +18,7 @@ const City = (props) => {
                 <View style={[populationWrapper, rowLayout]}>
                     <IconText
                         iconName={'user'}
-                        iconColor={'red'}
+                        iconColor={'white'}
                         iconSize={75}
                         bodyText={80000}
                         bodyTextStyle={populationText}
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     },
     imageLayout: {
         flex: 1,
-        marginTop: StatusBar.currentHeight || 30,
+        // marginTop: StatusBar.currentHeight || 30,
     },
     cityName: {
         fontSize: 40,

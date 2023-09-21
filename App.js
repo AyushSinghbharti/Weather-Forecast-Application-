@@ -35,14 +35,14 @@ const App = () => {
   if (location) {
     console.log(location);
   }
-  
-  if (loading) {
-    return (
-      <View style={styles.container} >
-        <ActivityIndicator size={'extralarge'} color={'blue'} />
-      </View >
-    )
-  }
+
+  // if (loading) {
+  //   return (
+  //     <View style={styles.container} >
+  //       <ActivityIndicator size={'extralarge'} color={'blue'} />
+  //     </View >
+  //   )
+  // }
 
   return (
     <NavigationContainer>

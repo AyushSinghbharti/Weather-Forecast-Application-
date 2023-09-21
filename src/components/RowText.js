@@ -10,7 +10,7 @@ const RowText = (props) => {
       } = props;
     
     return (
-        <View style={containerStyle}>
+        <View style={[containerStyle, {justifyContent: 'center', alignItems: 'center'}]}>
             <Text style={messageOneStyle}>{messageOne}</Text>
             <Text style={messageTwoStyle}>{messageTwo}</Text>
         </View>
